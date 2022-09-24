@@ -1,0 +1,105 @@
+body {
+  background-image: url("salmonbaby.jpeg");
+  /* background-color:#181342; */
+  color: #0e0105;
+  margin: 0px;
+}
+
+
+header {
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #181342;
+}
+
+nav {
+  margin: 20px auto;
+  border-bottom:5px solid #7b9cb5;
+  padding-bottom: 30px;
+
+}
+
+nav ul {
+  overflow: hidden;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+nav li img {
+  height: 30px;
+}
+nav li {
+  float: none;
+  display: inline-block;
+}
+nav li a {
+  padding: 14px 16px;
+  text-align: center;
+  color: #7b98b5;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+nav li a:hover{
+  color: #181342;
+  background-color: grey;
+}
+header {
+  text-align: center;
+  text-anchor: middle;
+  font-style: italic;
+}
+body fieldset{
+  max-width: 600px;
+  margin: 30px auto 10px auto;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 100px;
+  margin: 100px auto; 
+  background-color:darkgray;
+}
+th {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  background-color: rgb(70, 63, 62);
+  color:#7b98b5;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+td {
+  padding: 1em .8em;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+tr:nth-child(even) {
+  background: rgb(70, 63, 62);
+}
+tr:nth-child(odd){
+  color:#103b9a;
+}
+tr > td:first-of-type{
+  font-weight: bold;
+}
+tr > td:last-of-type{
+  font-weight: bold;
+}
+#totalRow td{
+  font-weight: bold;
+}
+input{
+  color: #181342;
+}
+p {
+  margin: 0px 100px 20px 100px;
+}

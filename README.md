@@ -1,1 +1,1 @@
-# lab10
+# lab06-objects
